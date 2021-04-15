@@ -9,12 +9,7 @@ This app facilitates two SQL tables:
 -Outgoing Packages: Packages which are ready to be sent and are defined by package id, tracking number and additional notes
 
 
-<img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/create_entry0.jpg" alt="alt text" width="200" height="400">
-<img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/scan_barcode.jpg" alt="alt text" width="200" height="400">
-<img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/create_entry1" alt="alt text" width="200" height="400">
-<img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/view_table.jpg" alt="alt text" width="200" height="400">
-<img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/update.jpg" alt="alt text" width="200" height="400">
-<img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/delete.jpg" alt="alt text" width="200" height="400">
+<img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/create_entry0.jpg" alt="alt text" width="200" height="400"><img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/scan_barcode.jpg" alt="alt text" width="200" height="400"><img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/create_entry1.jpg" alt="alt text" width="200" height="400"><img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/view_table.jpg" alt="alt text" width="200" height="400"><img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/update.jpg" alt="alt text" width="200" height="400"><img src="https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/delete.jpg" alt="alt text" width="200" height="400">
 
 
 This was app was made possible thanks to:
