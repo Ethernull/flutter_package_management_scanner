@@ -2,14 +2,14 @@
 	//Implementing CRUD methods
 	
 	// Connect to database
-    $DATABASE_HOST = 'localhost';
+    	$DATABASE_HOST = 'localhost';
 	$DATABASE_USER = 'root';
 	$DATABASE_PASS = 'example';
 	$DATABASE_NAME = 'warehouse';
 
 	// Get and decode JSON string
-    $json_str = file_get_contents('php://input');
-    $json_obj = json_decode($json_str,true);
+    	$json_str = file_get_contents('php://input');
+    	$json_obj = json_decode($json_str,true);
 
 	// Create new SQL entry using prepared statements to prevent SQL injection
 	if($json_obj['action']=="create"){
