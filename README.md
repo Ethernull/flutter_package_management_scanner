@@ -1,16 +1,29 @@
 # package_scanner
 
-Scan packages and Upload them to a database
+This app was designed to manage cargo packages in a warehouse. This app uses http-posts to communicate with a server script (PHP) to manage SQL tables.
 
-## Getting Started
+This app facilitates two SQL tables:
 
-This project is a starting point for a Flutter application.
+-Inventory: Stored Packages in the warehouse defined by bar code, location code, quantity and description
 
-A few resources to get you started if this is your first Flutter project:
+-Outgoing Packages: Packages which are ready to be sent and are defined by package id, tracking number and additional notes
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Pictures:
+![alt text](https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/create_entry0.jpg?raw=true)
+![alt text](https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/scan_barcode.jpg?raw=true)
+![alt text](https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/create_entry1.jpg?raw=true)
+![alt text](https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/view_table.jpg?raw=true)
+![alt text](https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/update.jpg?raw=true)
+![alt text](https://github.com/Ethernull/flutter_package_management_scanner/blob/master/screenshots/delete.jpg?raw=true)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This was app was made possible thanks to:
+https://github.com/AmolGangadhare/flutter_barcode_scanner (MIT License)
+https://github.com/dart-lang/http (BSD-3-Clause License)
+https://github.com/MarcinusX/NumberPicker (BSD-2-Clause License)
+And of course
+https://github.com/flutter/flutter (BSD 3-Clause)
+
+Have a nice day!
+
+
+
